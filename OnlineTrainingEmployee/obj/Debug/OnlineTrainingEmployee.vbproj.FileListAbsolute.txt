@@ -1,0 +1,8 @@
+C:\vb\calculation\calculations\Onlinetraining\OnlineTrainingEmployee\OnlineTrainingEmployee\bin\OnlineTrainingEmployee.dll
+C:\vb\calculation\calculations\Onlinetraining\OnlineTrainingEmployee\OnlineTrainingEmployee\bin\OnlineTrainingEmployee.pdb
+C:\vb\calculation\calculations\Onlinetraining\OnlineTrainingEmployee\OnlineTrainingEmployee\bin\OnlineTrainingEmployee.xml
+C:\vb\calculation\calculations\Onlinetraining\OnlineTrainingEmployee\OnlineTrainingEmployee\obj\Debug\OnlineTrainingEmployee.Resources.resources
+C:\vb\calculation\calculations\Onlinetraining\OnlineTrainingEmployee\OnlineTrainingEmployee\obj\Debug\OnlineTrainingEmployee.vbproj.GenerateResource.Cache
+C:\vb\calculation\calculations\Onlinetraining\OnlineTrainingEmployee\OnlineTrainingEmployee\obj\Debug\OnlineTrainingEmployee.dll
+C:\vb\calculation\calculations\Onlinetraining\OnlineTrainingEmployee\OnlineTrainingEmployee\obj\Debug\OnlineTrainingEmployee.xml
+C:\vb\calculation\calculations\Onlinetraining\OnlineTrainingEmployee\OnlineTrainingEmployee\obj\Debug\OnlineTrainingEmployee.pdb
