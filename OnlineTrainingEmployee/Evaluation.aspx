@@ -36,7 +36,7 @@
                 </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>
-                    <asp:DropDownList ID="Evaempid" runat="server" Height="34px" Width="246px" AutoPostBack="True">
+                    <asp:DropDownList ID="Evaempid" runat="server" Height="27px" Width="246px" AutoPostBack="True">
                     </asp:DropDownList>
                 </td>
             </tr>

@@ -7,7 +7,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <table align="center" style="width:40%; height: 124px;">
+    <table align="center" style="width:41%; height: 312px;">
             <tr>
                 <td class="auto-style1">&nbsp;</td>
                 <td class="auto-style2">
@@ -22,7 +22,7 @@
             </tr>
             <tr>
                 <td class="auto-style1">
-                    <asp:Label ID="Label2" runat="server" Text="Designation Name"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="Designation Name" Height="21px" Width="315px"></asp:Label>
                 </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>

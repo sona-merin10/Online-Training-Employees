@@ -89,11 +89,13 @@
     <Content Include="css\style.css" />
     <Content Include="Department.aspx" />
     <Content Include="Designation.aspx" />
-    <Content Include="EmpLogin.aspx" />
     <Content Include="Employeesignup.aspx" />
+    <Content Include="Emppage.aspx" />
+    <Content Include="EmpSignin.aspx" />
     <Content Include="Evaluation.aspx" />
     <Content Include="FrmEmployee.aspx" />
     <Content Include="FrmHR.aspx" />
+    <Content Include="HR page.aspx" />
     <Content Include="HRApproval.aspx" />
     <Content Include="images\about-img.jpg" />
     <Content Include="images\client.png" />
@@ -109,7 +111,9 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\custom.js" />
     <Content Include="js\jquery-3.4.1.min.js" />
+    <Content Include="Profile.aspx" />
     <Content Include="Qualification.aspx" />
+    <Content Include="Signup.aspx" />
     <Content Include="Trainer.aspx" />
     <Content Include="Training.aspx" />
     <Content Include="TrainingCalendar.aspx" />
@@ -147,13 +151,6 @@
       <DependentUpon>Designation.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="EmpLogin.aspx.designer.vb">
-      <DependentUpon>EmpLogin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="EmpLogin.aspx.vb">
-      <DependentUpon>EmpLogin.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="Employee.Master.designer.vb">
       <DependentUpon>Employee.Master</DependentUpon>
     </Compile>
@@ -166,6 +163,20 @@
     </Compile>
     <Compile Include="Employeesignup.aspx.vb">
       <DependentUpon>Employeesignup.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Emppage.aspx.designer.vb">
+      <DependentUpon>Emppage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Emppage.aspx.vb">
+      <DependentUpon>Emppage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EmpSignin.aspx.designer.vb">
+      <DependentUpon>EmpSignin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmpSignin.aspx.vb">
+      <DependentUpon>EmpSignin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Evaluation.aspx.designer.vb">
@@ -187,6 +198,13 @@
     </Compile>
     <Compile Include="FrmHR.aspx.vb">
       <DependentUpon>FrmHR.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="HR page.aspx.designer.vb">
+      <DependentUpon>HR page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HR page.aspx.vb">
+      <DependentUpon>HR page.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="HR.Master.designer.vb">
@@ -222,11 +240,25 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Profile.aspx.designer.vb">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.vb">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Qualification.aspx.designer.vb">
       <DependentUpon>Qualification.aspx</DependentUpon>
     </Compile>
     <Compile Include="Qualification.aspx.vb">
       <DependentUpon>Qualification.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Signup.aspx.designer.vb">
+      <DependentUpon>Signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.aspx.vb">
+      <DependentUpon>Signup.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="test.vb" />

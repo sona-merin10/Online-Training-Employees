@@ -41,7 +41,7 @@
                     <asp:Label ID="Label2" runat="server" Text="Training Name"></asp:Label>
                 </td>
                 <td class="auto-style2">
-                    <asp:TextBox ID="trtrna" runat="server" Height="27px" style="margin-left: 69px" Width="299px"></asp:TextBox>
+                    <asp:TextBox ID="trtrna" runat="server" Height="27px" style="margin-left: 71px" Width="299px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
@@ -55,7 +55,7 @@
                     <asp:Label ID="Label3" runat="server" Text="Trainer "></asp:Label>
                 </td>
                 <td class="auto-style1">
-                    <asp:DropDownList ID="traitrid" runat="server" Height="23px" style="margin-left: 71px" Width="307px" AutoPostBack="True">
+                    <asp:DropDownList ID="traitrid" runat="server" Height="23px" style="margin-left: 71px" Width="299px" AutoPostBack="True">
                     </asp:DropDownList>
                 </td>
                 <td class="auto-style1"></td>

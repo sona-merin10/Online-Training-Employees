@@ -17,7 +17,7 @@
             </tr>
             <tr>
                 <td class="auto-style1">
-                    <asp:Label ID="Label2" runat="server" Text="Qualification name"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="Qualification name" Height="27px" Width="182px"></asp:Label>
                 </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>

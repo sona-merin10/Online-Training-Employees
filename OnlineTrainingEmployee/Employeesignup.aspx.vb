@@ -6,7 +6,6 @@ Public Class Employeedetails
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Not IsPostBack Then
-
             bindcom()
             bindempdesig()
             binddepart()
@@ -22,7 +21,6 @@ Public Class Employeedetails
         ElseIf Rb2.Checked = True Then
             Gen = "Female"
         End If
-
         instr = "insert into Employee_table(Company_id,First_name,Last_name,Age,Gender,Email,Pass,Designation_id,Department_id,Qualification_id)values(" + empdeComid.SelectedValue + ",'" + txtFn.Text + "','" + txtln.Text + "','" + txtage.Text + "','" + Gen + "','" + txtemail1.Text + "','" + emppass.Text + "'," + empdesigid.SelectedValue + "," + empdepartid.SelectedValue + "," + empquaid.SelectedValue + ")"
         Dim cmdemp As SqlCommand = New SqlCommand(instr, co.connect())
         cmdemp.ExecuteNonQuery()
@@ -87,6 +85,6 @@ Public Class Employeedetails
     End Sub
 
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
-        Response.Redirect("EmpLogin.aspx")
+        Response.Redirect("EmpSignin.aspx")
     End Sub
 End Class

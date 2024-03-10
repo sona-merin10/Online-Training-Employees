@@ -12,7 +12,7 @@ Public Class Training
 
     Protected Sub btntraisub_Click(sender As Object, e As EventArgs) Handles btntraisub.Click
         Dim instr As String
-        instr = "insert into Training_table(Training_name,Trainer_id,Description,Budget)values('" + trtrna.Text + "'," + traitrid.SelectedValue + ",'" + traides.Text + "', '" + traibud.Text + "')"
+        instr = "insert into Training_table(Training_name,Description,Trainer_id,Bud)values('" + trtrna.Text + "','" + traides.Text + "'," + traitrid.SelectedValue + ", '" + traibud.Text + "')"
         Dim cmdtraining As SqlCommand = New SqlCommand(instr, co.connect())
         cmdtraining.ExecuteNonQuery()
         Response.Write("<script>alert('data saved');</script>")
@@ -20,6 +20,7 @@ Public Class Training
         traides.Text = ""
         traibud.Text = ""
     End Sub
+    
     Public Sub bindTrainingtrainer()
         Dim str As String
         str = "select Trainer_id,Name from Trainer_table"
@@ -27,12 +28,11 @@ Public Class Training
         Dim sqlda As SqlDataAdapter = New SqlDataAdapter(com)
         Dim ds As DataTable = New DataTable
         sqlda.Fill(ds)
-        traitrid.Items.Clear()
-        traitrid.Items.Add("--Select--")
         traitrid.DataTextField = "Name"
         traitrid.DataValueField = "Trainer_id"
         traitrid.DataSource = ds
         traitrid.DataBind()
+        traitrid.Items.Insert(0, "--Select--")
     End Sub
     
 End Class

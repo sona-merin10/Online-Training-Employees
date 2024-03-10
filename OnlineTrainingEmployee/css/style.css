@@ -2,8 +2,10 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color:#adb5bd ;
 }
+
+
 
 .layout_padding {
   padding-top: 90px;
@@ -913,6 +915,9 @@ a:focus {
 
 .footer_section a {
   color: rgba(254, 254, 255, 0.7);
+}
+.footer_section a:hover {
+  text-decoration: underline;
 }
 
 /* end footer section*/

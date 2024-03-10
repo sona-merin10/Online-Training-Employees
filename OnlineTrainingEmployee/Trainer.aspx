@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style1 {
-            width: 239px;
+            width: 135px;
         }
     </style>
 </asp:Content>
@@ -32,13 +32,10 @@
             </tr>
             <tr>
                 <td class="auto-style1">
-                    <asp:Label ID="Label6" runat="server" Text="Training "></asp:Label>
-                </td>
+                    &nbsp;</td>
                 <td class="auto-style7"></td>
                 <td class="auto-style8">
-                    <asp:DropDownList ID="trainertraiid" runat="server" Height="29px" Width="166px" AutoPostBack="True">
-                    </asp:DropDownList>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style1">
@@ -53,7 +50,7 @@
                 </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>
-                    <asp:TextBox ID="trainerna" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="trainerna" runat="server" Height="27px" Width="246px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -69,7 +66,7 @@
                 </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>
-                    <asp:TextBox ID="traineraddress" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="traineraddress" runat="server" Height="27px" Width="246px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -86,7 +83,7 @@
                 <td class="auto-style2">
                     &nbsp;</td>
                 <td>
-                    <asp:DropDownList ID="trtritype" runat="server" Height="19px" Width="164px">
+                    <asp:DropDownList ID="trtritype" runat="server" Height="27px" Width="246px">
                         <asp:ListItem>Internal</asp:ListItem>
                         <asp:ListItem>External</asp:ListItem>
                     </asp:DropDownList>

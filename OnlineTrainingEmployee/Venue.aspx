@@ -21,7 +21,7 @@
                 </td>
                 <td class="auto-style4">&nbsp;</td>
                 <td>
-                    <asp:TextBox ID="venname" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="venname" runat="server" Height="16px" Width="174px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -35,7 +35,7 @@
                 </td>
                 <td class="auto-style4">&nbsp;</td>
                 <td>
-                    <asp:TextBox ID="venaddress" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="venaddress" runat="server" Height="16px" Width="174px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -49,7 +49,7 @@
                 </td>
                 <td class="auto-style4">&nbsp;</td>
                 <td>
-                    <asp:DropDownList ID="ddvenuetype" runat="server" Width="166px">
+                    <asp:DropDownList ID="ddvenuetype" runat="server" Height="16px" Width="174px">
                         <asp:ListItem>Internal</asp:ListItem>
                         <asp:ListItem>External</asp:ListItem>
                     </asp:DropDownList>

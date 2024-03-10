@@ -5,7 +5,7 @@
             width: 177px;
         }
         .auto-style2 {
-            width: 242px;
+            width: 167px;
         }
     </style>
 </asp:Content>
@@ -25,11 +25,12 @@
             </tr>
             <tr>
                 <td class="auto-style2">
+                    &nbsp;
                     <asp:Label ID="Label4" runat="server" Text="Training "></asp:Label>
                 </td>
                 <td class="auto-style1">&nbsp;</td>
                 <td>
-                    <asp:DropDownList ID="Aptraiid" runat="server" Height="16px" Width="127px" AutoPostBack="True">
+                    <asp:DropDownList ID="Aptraiid" runat="server" Height="21px" Width="315px" AutoPostBack="True">
                     </asp:DropDownList>
                 </td>
             </tr>
@@ -40,11 +41,11 @@
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:Label ID="Label2" runat="server" Text="Employee "></asp:Label>
+                    &nbsp;<asp:Label ID="Label2" runat="server" Text="Employee "></asp:Label>
                 </td>
                 <td class="auto-style1"></td>
                 <td class="auto-style5">
-                    <asp:DropDownList ID="Apempid" runat="server" Height="16px" Width="127px" AutoPostBack="True">
+                    <asp:DropDownList ID="Apempid" runat="server" Height="21px" Width="315px" AutoPostBack="True">
                     </asp:DropDownList>
                 </td>
             </tr>
@@ -60,7 +61,7 @@
                 <td class="auto-style1">
                     &nbsp;</td>
                 <td>
-                    <asp:DropDownList ID="Apvenid" runat="server" Height="20px" Width="126px" AutoPostBack="True">
+                    <asp:DropDownList ID="Apvenid" runat="server" Height="21px" Width="315px" AutoPostBack="True">
                     </asp:DropDownList>
                 </td>
             </tr>

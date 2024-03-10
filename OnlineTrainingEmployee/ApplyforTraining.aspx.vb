@@ -34,7 +34,7 @@ Public Class ApplyforTraining
         Aptraiid.DataValueField = "Training_id"
         Aptraiid.DataSource = ds
         Aptraiid.DataBind()
-        ID.Items.Insert(0, "--Select--")
+        Aptraiid.Items.Insert(0, "--Select--")
     End Sub
     Public Sub bindapplyEmployee()
         Dim str As String
@@ -44,7 +44,7 @@ Public Class ApplyforTraining
         Dim ds As DataTable = New DataTable
         sqlda.Fill(ds)
         Apempid.Items.Clear()
-        Apempid.Items.Add("--Select--")
+
         Apempid.DataTextField = "First_name"
         Apempid.DataValueField = "Employee_id"
         Apempid.DataSource = ds

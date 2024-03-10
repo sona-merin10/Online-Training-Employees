@@ -127,7 +127,7 @@
                     <asp:Label ID="Label12" runat="server" Text="Password"></asp:Label>
                 </td>
                 <td class="auto-style7">
-                    <asp:TextBox ID="emppass" runat="server"  Height="21px" Width="315px"></asp:TextBox>
+                    <asp:TextBox ID="emppass" runat="server"  Textmode="Password" Height="21px" Width="315px"></asp:TextBox>
                 </td>
                 <td class="auto-style5">&nbsp;</td>
             </tr>

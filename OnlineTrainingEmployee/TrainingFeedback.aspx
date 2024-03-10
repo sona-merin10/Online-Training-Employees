@@ -1,13 +1,27 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/HR.Master" CodeBehind="TrainingFeedback.aspx.vb" Inherits="OnlineTrainingEmployee.TrainingFeedback" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Employee.Master" CodeBehind="TrainingFeedback.aspx.vb" Inherits="OnlineTrainingEmployee.TrainingFeedback" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style1 {
+            width: 28px;
+        }
+        .auto-style2 {
+            width: 17px;
+        }
+        .auto-style3 {
+            width: 6px;
+        }
+        .auto-style4 {
+            width: 3px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <table align="center" style="width:100%;">
+     <table align="center" style="width:54%; height: 602px;">
             <tr>
                 <td class="auto-style3"></td>
                 <td class="auto-style4">&nbsp;<asp:Label ID="Label1" runat="server" Font-Italic="True" ForeColor="#0099FF" Text="FEEDBACK"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
-                <td class="auto-style5"></td>
+                <td></td>
             </tr>
             <tr>
                 <td class="auto-style1">&nbsp;</td>

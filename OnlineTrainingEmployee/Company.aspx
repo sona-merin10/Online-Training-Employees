@@ -2,13 +2,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <table align="center" style="width:100%;">
+    <table align="center" style="width:51%; height: 34px;">
             <tr>
                 <td class="auto-style1">
                     <asp:Label ID="Label1" runat="server" Text="Company Name"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtcompanyname" runat="server" Width="164px"></asp:TextBox>
+                    <asp:TextBox ID="txtcompanyname" runat="server" Height="21px" Width="315px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
@@ -22,7 +22,7 @@
                     <asp:Label ID="Label2" runat="server" Text="Address"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtcomaddress" runat="server" Width="161px"></asp:TextBox>
+                    <asp:TextBox ID="txtcomaddress" runat="server" Height="21px" Width="315px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
@@ -36,7 +36,7 @@
                     <asp:Label ID="Label3" runat="server" Text="Contact Number"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtconno" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtconno" runat="server" Height="21px" Width="315px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
@@ -50,7 +50,7 @@
                     <asp:Label ID="Label4" runat="server" Text="Email"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="txtemail" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtemail" runat="server" Height="21px" Width="315px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>

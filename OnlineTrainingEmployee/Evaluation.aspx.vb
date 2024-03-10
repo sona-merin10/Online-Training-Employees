@@ -43,7 +43,7 @@ Public Class Evaluation
         sqlda.Fill(ds)
         Evaempid.Items.Clear()
         Evaempid.Items.Add("--Select--")
-        Evaempid.DataTextField = "Employee_name"
+        Evaempid.DataTextField = "First_name"
         Evaempid.DataValueField = "Employee_id"
         Evaempid.DataSource = ds
         Evaempid.DataBind()

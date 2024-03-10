@@ -2,10 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style1 {
-            width: 290px;
+            width: 146px;
         }
         .auto-style2 {
-            width: 204px;
+            width: 124px;
         }
     </style>
 </asp:Content>
@@ -30,7 +30,7 @@
                 </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>
-                    <asp:DropDownList ID="hrreqid" runat="server" Height="17px" Width="168px" AutoPostBack="True">
+                    <asp:DropDownList ID="hrreqid" runat="server" Height="27px" Width="246px" AutoPostBack="True">
                     </asp:DropDownList>
                 </td>
             </tr>
@@ -45,7 +45,7 @@
                 </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>
-                    <asp:TextBox ID="hrapldate" runat="server" Width="157px"></asp:TextBox>
+                    <asp:TextBox ID="hrapldate" runat="server" Height="27px" Width="246px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -59,7 +59,7 @@
                 </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>
-                    <asp:DropDownList ID="hrstatus" runat="server" Height="22px" Width="165px">
+                    <asp:DropDownList ID="hrstatus" runat="server" Height="27px" Width="246px">
                         <asp:ListItem>Pending</asp:ListItem>
                         <asp:ListItem>Approved</asp:ListItem>
                         <asp:ListItem>Rejected</asp:ListItem>

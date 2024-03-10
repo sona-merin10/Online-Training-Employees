@@ -9,11 +9,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <table align="center" style="width:45%; height: 171px;">
             <tr>
-                <td class="auto-style1">&nbsp;</td>
-                <td class="auto-style2">
+                <td class="auto-style1"></td>
+                <td class="auto-style1">
                     <asp:Label ID="Label1" runat="server" ForeColor="#3333CC" Text="Department"></asp:Label>
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style1"></td>
             </tr>
             <tr>
                 <td class="auto-style1">&nbsp;</td>
@@ -22,7 +22,7 @@
             </tr>
             <tr>
                 <td class="auto-style1">
-                    <asp:Label ID="Label2" runat="server" Text="Department Name"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Text="Department Name" Height="21px" Width="315px"></asp:Label>
                 </td>
                 <td class="auto-style2">&nbsp;</td>
                 <td>
